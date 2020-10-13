@@ -1,17 +1,17 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import PhotoList from '../'
+import Photolist from '../'
 
 afterEach(cleanup)
 
-describe('PhotoList is rendering', () => {
+describe('Photolist is rendering', () => {
   it('renders', () => {
-    render(<PhotoList />);
+    render(<Photolist />);
   });
 
   it('renders', () => {
-    const { asFragment } = render(<PhotoList />)
+    const { asFragment } = render(<Photolist />)
     expect(asFragment()).toMatchSnapshot()
   });
 });
