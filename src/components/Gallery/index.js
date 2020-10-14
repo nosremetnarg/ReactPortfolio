@@ -10,12 +10,9 @@ function Gallery({ currentCategory }) {
         <section>
             <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
             <p>{description}</p>
-            <Photolist category={currentCategory.name} />
-
-       
+            <Photolist category={currentCategory.name} />  
     </section>
 );
 }
-
 
 export default Gallery;
