@@ -16,5 +16,12 @@ describe('About component', () => {  // baseline test
         // render About
         const { asFragment } = render(<About />); // asFragment returns a snapshot of the component
         expect(asFragment()).toMatchSnapshot(); // toMatchSnapshot is a matcher
-    })
+    });
+
+    describe('links are visible', () => {
+        it('inserts text into the links', () => {
+          // Arrange
+          // Assert
+        });
+      })
 })
