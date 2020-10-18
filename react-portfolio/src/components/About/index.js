@@ -12,7 +12,7 @@ function About() {
                 </br>
                 <br>
                 </br>
-            I own a social justice T-Shirt company, humanfoodkind, which donates a portion of proceeds to various progressive and equality minded organizations. 
+            I own a social justice T-Shirt company, humangoodkind, which donates a portion of proceeds to various progressive and equality minded organizations. 
             </p>
             <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
         </section>
