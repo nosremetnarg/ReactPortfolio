@@ -8,44 +8,30 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'Work Day Scheduler',
       category: 'fullStack',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Built using HTML, CSS, JS, Moment.JS, Bootstrap, and jQuery.',
     },
     {
-      name: 'Grocery booth',
+      name: 'Note Taker App',
       category: 'fullStack',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Built using NodeJS, Express, testing with jest & Insomnia.',
+      site: 'https://frozen-inlet-63653.herokuapp.com/'
     },
     {
-      name: 'Building exterior',
+      name: 'Pizza Hunt',
       category: 'fullStack',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Built using MVC technique and MongoDB.',
     },
     {
-      name: 'Restaurant table',
+      name: 'Ask Father Time',
       category: 'fullStack',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'A social media app geared towards connection in the context of conversation and mental health.',
     },
     {
-      name: 'Cat green eyes',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Green parrot',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Yellow macaw',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Pug smile',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      name: 'Resume',
+      category: 'resume',
+      description: 'Cheers',
     },
     {
       name: 'Pancakes',
@@ -53,25 +39,21 @@ const PhotoList = ({ category }) => {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Burrito',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Scallop pasta',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Burger',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Fruit bowl',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
+        name: 'Carry The Fire',
+        category: 'creative',
+        description: 'Released 2012 on Warner Brothers Records',
+      },
+      {
+        name: 'After It All',
+        category: 'creative',
+        description: 'Released 2015 on Warner Brothers Records',
+      },
+      {
+        name: 'The Light',
+        category: 'creative',
+        description: 'Release 2020 (Independent) on Never Die Records',
+      },
+    
     {
       name: 'Green river',
       category: 'landscape',

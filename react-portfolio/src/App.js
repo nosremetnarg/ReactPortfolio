@@ -4,6 +4,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 // import PhotoList from './components/PhotoList';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -13,9 +14,9 @@ function App() {
       name: 'fullStack',
       description: "Projects I've completed in my bootcamp course.",
     },
-    { name: 'portraits', description: 'Portraits of animals in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'resume', description: '2020 Resume' },
+    { name: 'creative', description: '' },
+    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -39,6 +40,7 @@ function App() {
           ) : (
               <ContactForm></ContactForm>
             )}
+            <Footer />
         </div>
       </main>
     </div>
