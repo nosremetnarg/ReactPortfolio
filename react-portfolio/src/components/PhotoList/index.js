@@ -9,27 +9,22 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Grocery aisle',
-      category: 'commercial',
+      category: 'fullStack',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
       name: 'Grocery booth',
-      category: 'commercial',
+      category: 'fullStack',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
       name: 'Building exterior',
-      category: 'commercial',
+      category: 'fullStack',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
       name: 'Restaurant table',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Cafe interior',
-      category: 'commercial',
+      category: 'fullStack',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
@@ -122,7 +117,7 @@ const PhotoList = ({ category }) => {
 )}
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
+            src={require(`../../assets/large/${category}/${i}.jpg`)}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
